@@ -29,6 +29,8 @@ Assumptions :
 
   Expected win rate are same E.g. 0.082939 for bid_price in [0.20, 0.50]
   
+  Exception to above instances, Expected win rate increase with increase in bid_price
+  
 
 ## Problem 2 : Maximize net revenue
 
@@ -41,6 +43,8 @@ Assumptions :
 
 - Revenue Generated for each bid_price = (Estimated win rate for each bid_price * total_events * 0.5) - (Estimated win rate for each bid_price * total_events * bid_price)
 
+- Below line chart depicts the revenue generated for each selected bid_price
+
 ![image](https://user-images.githubusercontent.com/44555748/192393408-e7326b47-998c-4f8a-bfa5-890a25393664.png)
 
-- Hence, Maximum revenue generated with bid_rate = 0.1
+Hence, Maximum revenue generated with bid_rate = 0.1
